@@ -409,3 +409,57 @@ textarea {
   background: #f97316;
   color: #0b1120;
 }
+.thank-you-body {
+  background: #020617;
+  color: #e5e7eb;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.thank-you-wrapper {
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+/* Hamburger icon */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.nav-toggle span {
+  width: 22px;
+  height: 2px;
+  background: #e5e7eb;
+  border-radius: 999px;
+}
+
+/* Mobile menu behaviour */
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 56px;
+    right: 1rem;
+    background: #020617;
+    padding: 0.85rem 1rem;
+    border-radius: 0.9rem;
+    flex-direction: column;
+    gap: 0.8rem;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+    transform: translateX(140%);
+    transition: transform 0.18s ease-out;
+  }
+
+  .nav-links.nav-open {
+    transform: translateX(0);
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+}
