@@ -68,59 +68,62 @@
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <h2>Powerful Features for Smart Businesses</h2>
-            <p class="section-subtitle">
-                Everything you need to sell, track, and grow — in one POS platform.
-            </p>
+     <section id="features" class="features">
+  <div class="container">
+    <h2>Powerful Features for Smart Businesses</h2>
+    <p class="section-subtitle">
+      Everything you need to sell, track, and grow — in one POS platform.
+    </p>
 
-            <div class="feature-grid">
-                <article class="feature-card">
-                    <div class="feature-icon">
-                        <span class="icon icon-inventory"></span>
-                    </div>
-                    <h3>Inventory Management</h3>
-                    <p>
-                        Track stock in real time, set reorder alerts, and manage multiple locations
-                        from a single dashboard.
-                    </p>
-                </article>
-
-                <article class="feature-card">
-                    <div class="feature-icon">
-                        <span class="icon icon-analytics"></span>
-                    </div>
-                    <h3>Sales Analytics</h3>
-                    <p>
-                        Understand your best-selling products, peak hours, and revenue trends in
-                        clear visual reports.
-                    </p>
-                </article>
-
-                <article class="feature-card">
-                    <div class="feature-icon">
-                        <span class="icon icon-integration"></span>
-                    </div>
-                    <h3>Easy Integration</h3>
-                    <p>
-                        Connect QuickPOS with your accounting, ecommerce, and marketing tools with
-                        plug-and-play integrations.
-                    </p>
-                </article>
-
-                <article class="feature-card">
-                    <div class="feature-icon">
-                        <span class="icon icon-support"></span>
-                    </div>
-                    <h3>24/7 Support</h3>
-                    <p>
-                        Get help anytime from our dedicated POS experts — via chat, email, or phone.
-                    </p>
-                </article>
-            </div>
+    <div class="feature-grid">
+      <article class="feature-card">
+        <div class="feature-icon">
+          <span class="icon icon-inventory"></span>
         </div>
-    </section>
+        <h3>Inventory Management</h3>
+        <p>
+          Track stock in real time, set reorder alerts, and manage multiple
+          locations from a single dashboard.
+        </p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon">
+          <span class="icon icon-analytics"></span>
+        </div>
+        <h3>Sales Analytics</h3>
+        <p>
+          Understand your best-selling products, peak hours, and revenue trends
+          in clear visual reports.
+        </p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon">
+          <span class="icon icon-integration"></span>
+        </div>
+        <h3>Easy Integration</h3>
+        <p>
+          Connect QuickPOS with your accounting, ecommerce, and marketing tools
+          with plug-and-play integrations.
+        </p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon">
+          <span class="icon icon-support"></span>
+        </div>
+        <h3>24/7 Support</h3>
+        <p>
+          Get help anytime from our dedicated POS experts — via chat, email, or
+          phone.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
 
     <!-- Pricing Section -->
     <section id="pricing" class="pricing">
@@ -180,26 +183,27 @@
                 Have questions about QuickPOS? Our team is here to help.
             </p>
 
-            <form action="contact.php" method="POST" class="contact-form" novalidate>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input id="name" name="name" type="text" required>
-                </div>
+         <form action="contact.php" method="POST" class="contact-form" novalidate>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" required>
+  </div>
 
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email" required>
-                </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required>
+  </div>
 
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+  </div>
 
-                <button type="submit" class="btn btn-primary">
-                    Send Message
-                </button>
-            </form>
+  <button type="submit" class="btn btn-primary">
+    Send Message
+  </button>
+</form>
+
         </div>
     </section>
 </main>
